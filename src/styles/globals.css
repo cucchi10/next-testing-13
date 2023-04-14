@@ -105,3 +105,23 @@ a {
     color-scheme: dark;
   }
 }
+
+/* ANTD */
+
+h1,h2,h3,h4,h5,h6,p,span{
+  color: inherit !important;
+}
+
+.ant-result-title{
+  color: inherit !important;
+}
+.ant-result-subtitle{
+  color: inherit !important;
+}
+
+.ant-card {
+  background-color: rgb(228, 228, 228) !important;
+}
+.ant-card-head{
+  background-color: rgb(214, 214, 214) !important;
+}

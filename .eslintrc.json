@@ -1,3 +1,31 @@
 {
-  "extends": "next/core-web-vitals"
+  "editor.formatOnSave": true,
+  "extends": ["next/core-web-vitals", "plugin:react/recommended", "plugin:jsx-a11y/recommended", "plugin:import/recommended", "prettier", "plugin:prettier/recommended"],
+  "plugins": ["simple-import-sort"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "react/prop-types": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "tabWidth": 2,
+        "trailingComma": "es5"
+      }
+    ]
+  }
 }

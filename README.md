@@ -1,3 +1,18 @@
+# Practicando con Next 13
+
+## Fotos
+
+![1](./images/1.png)
+###
+![2](./images/2.png)
+###
+![3](./images/3.png)
+###
+![4](./images/4.png)
+###
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
